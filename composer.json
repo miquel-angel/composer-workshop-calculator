@@ -1,6 +1,7 @@
 {
     "name": "emmetog/composer-workshop-calculator",
     "description": "A calculator for demonstrating how composer works",
+	"license": "proprietary",
     "authors": [
         {
             "name": "Emmet O'Grady",
@@ -10,9 +11,10 @@
     "minimum-stability": "stable",
     "require": {
 
-    }
-	
+    },
 	"autoload": {
-        "psr-0": {"Emmetog\Calculator": "src/"}
+        "psr-0": {
+			"Emmetog/Calculator": "src/"
+		}
     }
 }
