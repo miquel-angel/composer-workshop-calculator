@@ -9,7 +9,7 @@ class Calculator
 		return $firstNumber + $secondNumber;
 	}
 	
-	public function subtract( $minuend, $subtrahend )
+	public function minus( $minuend, $subtrahend )
 	{
 		return $minuend - $subtrahend;
 	}
