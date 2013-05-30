@@ -1,0 +1,21 @@
+{
+    "name": "miquel-angel/composer-workshop-calculator",
+    "description": "Composer muy way",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "miquel angel",
+            "email": "miquel@mi.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload": {
+	"psr-0": 
+	{
+	    "Emmetog:\\Calculator": "src/"
+	}	
+    }
+}
